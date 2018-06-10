@@ -1,5 +1,5 @@
 
-
+# Solution in 0(n^2)
 class Solution(object):
 	def twoSum(self,nums,target):
 		length = len(nums)

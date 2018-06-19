@@ -8,7 +8,7 @@ def reverse_array(array):
 		array[store_length] = array[i]
 		array[i] = temp
 	return [array];
-
+#makes no use of temporary variable most memory_efficient
 def reverse_array_no_tempvariable(nums):
 	length = len(nums)
 	mid_size = (int)(length/2)

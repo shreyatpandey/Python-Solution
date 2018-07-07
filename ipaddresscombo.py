@@ -24,4 +24,6 @@ class Solution(object):
 sol = Solution()
 input = "25525511135"
 result =sol.restoreIPAddresses(input)
+if (result == -1):
+    print("String_length_exceeded")
 print("Possible_ip_string:",result)

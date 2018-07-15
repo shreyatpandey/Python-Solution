@@ -37,5 +37,5 @@ def check_permutation_string(input_str,k):
         print("Contain all the permutation")
     
 
-final_result = check_permutation_string("110001",3)
+final_result = check_permutation_string("11001",2)
     

@@ -6,9 +6,7 @@ def generate_binary_string(k):
         for i in range(0,pow(2,k)):
             s = bin(i)[2:]
             s = "0"*(k-len(s)) + s
-            list_binary.append(s)
-            
-    
+            list_binary.append(s) 
     return list_binary
             
 #generate all permuation of string with given k
@@ -26,8 +24,6 @@ def permutation_string(str,k):
 def check_permutation_string(input_str,k):
     result_string_list = permutation_string(input_str,k)
     result_binary_list = generate_binary_string(k)
-    print("Result_string_list:",result_string_list)
-    print("Result_binary_list:",result_binary_list)
     for k in range(0,len(result_binary_list)):
         flag = 0
         for j in range(0,len(result_string_list)):

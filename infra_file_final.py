@@ -7,8 +7,8 @@ import os as os
 
 #cell 1
 #rootDir:- This is the path from which the file extraction would start
-#rootDir = r'''C:\Users\shreyatp\Desktop\4G\trial'''
-rootDir = r'\\mucfsv01b.imu.intel.com\KPI\00_Test_Results\INFRA\7560'
+rootDir = r'''C:\Users\shreyatp\Desktop\4G\trial'''
+
 
 #cell 2
 #path of output csv file

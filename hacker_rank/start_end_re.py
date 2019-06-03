@@ -1,3 +1,17 @@
+'''
+Print the tuple in this format: (start _index, end _index). 
+If no match is found, print (-1, -1).
+
+Sample Input
+
+aaadaa
+aa
+Sample Output
+
+(0, 1)  
+(1, 2)
+(4, 5)
+'''
 import re
 string_main = input()
 string_compare = input()

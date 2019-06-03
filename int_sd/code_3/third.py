@@ -10,7 +10,7 @@ from xlrd import open_workbook
 
 #cell 2
 '''NR File and MCC_Read_File Path'''
-nr_file_input = r'''C:\Users\shreyatp\Desktop\5G_code\5G_Files\Copy of BUListWW06a_ICE_20190409_latest.xls'''
+nr_file_input = r'''C:\Users\shreyatp\Desktop\5G_code\5G_Files\latest.xls'''
 mcc_read_file = 'MCC_Bands.txt'
 trial_output_file = 'band_combination_trial.csv'
 input_list = ['Band-Combination']

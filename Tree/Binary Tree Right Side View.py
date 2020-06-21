@@ -37,13 +37,6 @@ class Solution(object):
  Approach-2: Without using deque, using list
  Runtime:- 48.07% fast
  '''
- # Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
-from collections import deque
 class Solution(object):
     def rightSideView(self, root):
         """

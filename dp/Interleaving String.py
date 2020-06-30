@@ -1,4 +1,10 @@
 """
+Approach-1 :- 1D DP Approach
+TC:- O(M*N)
+where M is the length of first string and N is the length of second string
+SC:- O(M) where M is the length of first string
+"""
+"""
 TestCase[1] :- s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"
 Output[1] :- true
 
